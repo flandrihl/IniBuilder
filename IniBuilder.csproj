@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>Latest</LangVersion>
+        <Authors>𝔸𝕝𝕖𝕩 𝕂𝕠𝕟𝕠𝕡𝕖𝕝𝕜𝕠</Authors>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <PackageIcon>iniBuilder.png</PackageIcon>
+        <Title>IniBuilder</Title>
+        <PackageProjectUrl>https://github.com/flandrihl/IniBuilder.git</PackageProjectUrl>
+        <Description>Serialization and Deserialization an object to a File (from a File).</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ini-parser-new" Version="2.6.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="iniBuilder.png">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
+    </ItemGroup>
+
+</Project>
